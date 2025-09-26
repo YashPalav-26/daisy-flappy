@@ -1,0 +1,7 @@
+/* Ensure the app reliably fills the viewport */
+html, body, #root { height: 100%; }
+
+/* Improve focus ring for canvas-only control */
+canvas:focus { outline: 2px solid hsl(var(--p)); }
+
+
